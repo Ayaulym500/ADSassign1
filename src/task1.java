@@ -1,0 +1,23 @@
+//You are given a number “n” and an array of “n” elements,
+//write the function that returns minimum of them.
+
+import java.util.Scanner;
+
+public class task1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int min=arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        System.out.println(min);
+    }
+
+}
