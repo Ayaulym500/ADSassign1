@@ -1,5 +1,5 @@
 //You are given “a” and “b”, write the function for finding
-//  GCD(a, b) using recursion. (Hint: Euclidean Algorithm)
+//  GCD(a, b) using recursion.
 
 import java.util.Scanner;
 
